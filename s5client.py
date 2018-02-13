@@ -20,7 +20,7 @@ def threadHandle(connection, address, logger):
                 break
             logger.debug("Received data %r", data)
             rsp = '''HTTP/1.1 200 OK
-            
+
             Transfer-Encoding: chunked
 <html>fuck</html>\r\n0\r\n'''
 
